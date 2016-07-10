@@ -1,6 +1,8 @@
 # Minitheatre-Listing-Submission-Helper
 Chrome extension for filling information from Myanimelist
 
+### How to use this extension
+
 1. Go to chrome://extensions/
 2. Tick "Developer mode"
 3. Click "Load unpacked extension.."

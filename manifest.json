@@ -1,0 +1,26 @@
+{
+   "background": {
+      "scripts": [ "script.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "action.js" ],
+      "matches": [ "http://*/*" ]
+   }, {
+      "js": [ "action.js" ],
+      "matches": [ "https://*/*" ]
+   } ],
+   "description": "A tool for minitheatre.org member, it get information from a website MAL and fill them to the listing submission form",
+   "homepage_url": "http://minitheatre.org",
+   "icons": {
+      "128": "mt.ico",
+      "16": "mt.ico",
+      "48": "mt.ico"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvXUWLcDMWZXRbI9LUlSK/Jf9scv1xHkVD6w1nAFbwpqLWgx9dRCuRnuNGe93ljvKX9RBFCNRwgpwWCKDa+qV9f8yQS5ZzLVmKJqVSkm0YTLg59U+gsCjRgbrWBpkPlocBCCBmiLvX1oh4J7bi4PkX5Pg2n1iEFI/L9ryH21xwh7j9GHcluXSZXM7abAZtu6f1FM5dfbpOqSZWSBkAo1VEoHcCSsL7YQUDOmitMl63OB2UxIIKCCqDHxZKTMp6GKWNcScN6LQY9bac+teUeTO+7br1Eh+rjBSEWdsNEQA1hP+zl1Bs+HutK/iSe4BlD5xFUZdHG1O8GwIcM0PcpNcRQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "31.0",
+   "name": "Minitheatre Listing Submission Helper",
+   "permissions": [ "notifications", "contextMenus", "tabs", "http://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.5"
+}
